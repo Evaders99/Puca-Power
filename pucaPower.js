@@ -742,6 +742,8 @@ var pucaPower = {
                 // If we have a pending color, apply it
                 if ( rowColor !== null ) {
                     $('#'+ this.tableData[i].tradeID).find('td').css('background-color', rowColor);
+                } else {
+                    $('#'+ this.tableData[i].tradeID).find('td').css('height', 0);
                 }
 
 
@@ -752,10 +754,6 @@ var pucaPower = {
                         $('#'+ this.tableData[i].tradeID).find('td.points').prepend('<i class="icon-warning-sign"></i>&nbsp;&nbsp;');
                         $('#'+ this.tableData[i].tradeID).find('td.points').append('&nbsp;&nbsp;<i class="icon-warning-sign"></i>');
                     }
-                }
-                
-                if ( rowColor === null) {
-                    $('#'+ this.tableData[i].tradeID).remove();
                 }
             }
         }
