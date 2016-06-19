@@ -1,7 +1,7 @@
 {
   "name": "Puca Power",
   "tagline": "",
-  "body": "# Puca Power\r\n\r\nA small JavaScript utility to help you find quality trades on PucaTrade.com\r\n",
+  "body": "# Puca Power\r\n\r\nA small JavaScript utility to help you find quality trades on PucaTrade.com\r\n\r\nI didn't make this. Please don't download this, this is forked from https://llamasoft.github.io/Puca-Power/ ",
   "google": "",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
