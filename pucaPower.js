@@ -744,6 +744,7 @@ var pucaPower = {
                     $('#'+ this.tableData[i].tradeID).find('td').css('background-color', rowColor);
                 } else {
                     $('#'+ this.tableData[i].tradeID).find('td').css('height', 0);
+					$('#'+ this.tableData[i].tradeID).find('td').css('display', "none");
                 }
 
 
