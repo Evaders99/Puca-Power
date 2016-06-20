@@ -15,8 +15,8 @@ var pucaPower = {
 
     /* ===== INTERNAL VARIABLES ===== */
 
-    version: 'v1.4.4',
-    updateDate: '2016-05-11',
+    version: 'v1.4.4-custom',
+    updateDate: '2016-06-19',
 
     formUrl: 'https://llamasoft.github.io/Puca-Power/controls.html',
 
@@ -742,6 +742,8 @@ var pucaPower = {
                 // If we have a pending color, apply it
                 if ( rowColor !== null ) {
                     $('#'+ this.tableData[i].tradeID).find('td').css('background-color', rowColor);
+                } else {
+                    $('#'+ this.tableData[i].tradeID).find('td').css('height', 0);
                 }
 
 
